@@ -18,7 +18,7 @@ def FtoC(F):
 
 
 # DECIDING WHICH CONVERSION USER WANTS
-answer = str(input("If you would like to convert temperature from Celsius to Fahrenheit, enter A. If you would like to convert temperature from Fahrenheit to Celsius, type B. "))
+answer = str(input("If you would like to convert temperature from Celsius to Fahrenheit, enter A. If you would like to convert temperature from Fahrenheit to Celsius, enter B. "))
 
 
 # CONVERSION PROCESS
@@ -51,7 +51,7 @@ while True: #allows program to continue if user wants to convert again or makes 
 
     else: #User did not enter A or B because they clearly can't read
         print("Invalid option. Choose either A or B.")
-        answer = str(input("If you would like to convert temperature from Celsius to Fahrenheit, enter A. If you would like to convert temperature from Fahrenheit to Celsius, type B. "))
+        answer = str(input("If you would like to convert temperature from Celsius to Fahrenheit, enter A. If you would like to convert temperature from Fahrenheit to Celsius, enter B. "))
         continue
 
     
